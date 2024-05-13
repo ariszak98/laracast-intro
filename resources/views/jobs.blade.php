@@ -19,5 +19,12 @@
             
         @endforeach
     </div>
+    
+    <!-- Pagination Links -->
+    <!-- Default file: /tailwing.blade.php -->
+    <div class="mt-2">
+    {{ $jobs->links() }}
+    </div>
+    <!-- // -->
 
 </x-layout>

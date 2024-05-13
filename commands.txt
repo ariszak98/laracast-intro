@@ -88,4 +88,8 @@ Useful Composer + Laravel Commands + MySQL commands ::
     Inside of our SQL GUI if we run this we ENFORCE ALL the constrains to be active.
     (In case where they were not enforced by default)
 
-27. 
+27. php artisan vendor:publish
+    Allows us to extract styling files from vendor folder to our main "resource/vendor" folder
+    so that we can edit them manually if we want to
+
+28. 

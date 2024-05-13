@@ -75,4 +75,10 @@ Useful Composer + Laravel Commands + MySQL commands ::
 22. php artisan db:show
     Display information about the current DB
 
-23. 
+23. php artisan make:factory {factory_name}
+    Creates a Factory named {factory_name} under "database/factories/{factory_name}"
+
+24. php artisan make:model {model_name} -m
+    Creates a Model {model_name} and because we mentioned "-m" it will also create a Migration
+
+25. 

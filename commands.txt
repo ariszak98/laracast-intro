@@ -81,4 +81,11 @@ Useful Composer + Laravel Commands + MySQL commands ::
 24. php artisan make:model {model_name} -m
     Creates a Model {model_name} and because we mentioned "-m" it will also create a Migration
 
-25. 
+25. php artisan make:model {model_name} -mf
+    Creates the Model {model_name} and also a Migration + a Factory for it.
+
+26. PRAGMA foreign_keys=ON
+    Inside of our SQL GUI if we run this we ENFORCE ALL the constrains to be active.
+    (In case where they were not enforced by default)
+
+27. 

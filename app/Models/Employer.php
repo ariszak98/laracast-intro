@@ -14,7 +14,7 @@ class Employer extends Model
     /**
      * Use a Employer Model to find ALL Job Models
      * related to that model
-     * ( 1 Employer => MANY Jobs sooo => 'hasMany()' )
+     * ( 1 Employer => MANY Jobs sooo => 'hasMany() ' )
      */
     public function jobs(){
         return $this->hasMany(Job::class);

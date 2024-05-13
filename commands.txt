@@ -92,4 +92,14 @@ Useful Composer + Laravel Commands + MySQL commands ::
     Allows us to extract styling files from vendor folder to our main "resource/vendor" folder
     so that we can edit them manually if we want to
 
-28. 
+28. php artisan db:seed
+    Populates the Database with many dummy records we set up.
+
+29. php artisan migrate:fresh --seed
+    It Empties the Database and Then runs "db:seed"
+
+30. php artisan make:seeder {seeder_name}
+    It creates a new seeder file under "database/seeders/{seeder_name}"
+
+31. php artisan db:seed --class={seeder_name}
+    Populates the Database ONLY with the specified seeder class information.

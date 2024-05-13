@@ -71,3 +71,8 @@ Useful Composer + Laravel Commands + MySQL commands ::
 
 21. php artisan make:listener {listener_name}
     Creates a Listener at location "app/Listeners/{listener_name}" named {listener_name}
+
+22. php artisan db:show
+    Display information about the current DB
+
+23. 

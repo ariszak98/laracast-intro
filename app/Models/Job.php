@@ -19,7 +19,7 @@ class Job extends Model {
      * OR Deny Mass assigment of ONLY the followings:
      * - - protected $guarder =[];
      */
-    protected $guarder =[];
+    protected $guarded =[];
     
 
     /**

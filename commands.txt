@@ -103,3 +103,11 @@ Useful Composer + Laravel Commands + MySQL commands ::
 
 31. php artisan db:seed --class={seeder_name}
     Populates the Database ONLY with the specified seeder class information.
+
+32. php artisan route:list
+    It will list all available Routes of the Application
+
+33. php artisan route:list --except-vendor
+    It will list all available Routes of the Application EXCEPT those from vendors.
+
+34. 

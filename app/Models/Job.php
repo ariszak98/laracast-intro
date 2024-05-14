@@ -13,7 +13,14 @@ class Job extends Model {
 
     protected $table ='job_listings';
 
-    protected $fillable = ['title', 'salary'];
+    /**
+     * Allow to Mass assign only the followings:
+     * - - protected $fillable = ['employer_id', 'title', 'salary'];
+     * OR Deny Mass assigment of ONLY the followings:
+     * - - protected $guarder =[];
+     */
+    protected $guarder =[];
+    
 
     /**
      * Use a Job Model to find the SPECIFIC Employer Model

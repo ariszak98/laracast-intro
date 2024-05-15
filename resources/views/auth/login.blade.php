@@ -29,6 +29,10 @@
                 </div>
             </x-form-field>
 
+            <div class="sm:col-span-4">
+                <x-form-error name="credentials" />
+            </div>
+
             
             </div>
         </div>

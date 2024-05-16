@@ -8,15 +8,17 @@ use Illuminate\Contracts\Session\Session;
 use App\Http\Controllers\SessionController;
 use App\Http\Controllers\RegisteredUserController;
 
-// Home
-Route::view('/', 'home');
 
+/* Jobs & Queus
 Route::get('test', function() {
-
     TranslateJob::dispatch(Job::first());
-
     return 'Done';
 });
+*/
+
+
+// Home
+Route::view('/', 'home');
 
 // Job Related
 Route::get('/jobs', [JobController::class, 'index']);

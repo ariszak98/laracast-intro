@@ -110,4 +110,7 @@ Useful Composer + Laravel Commands + MySQL commands ::
 33. php artisan route:list --except-vendor
     It will list all available Routes of the Application EXCEPT those from vendors.
 
-34. 
+34. php artisan make:policy {policy_name} -m {model_name}
+    Creates a polict at location "app/policies/{policy_name}" connected to Model {model_name}
+
+35. 

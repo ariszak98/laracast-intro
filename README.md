@@ -3,4 +3,4 @@
 
 ## About this Project
 
-Introductin project to Laravel by Lacasts.com
+Introduction project to Laravel by Lacasts.com

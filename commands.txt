@@ -113,4 +113,7 @@ Useful Composer + Laravel Commands + MySQL commands ::
 34. php artisan make:policy {policy_name} -m {model_name}
     Creates a polict at location "app/policies/{policy_name}" connected to Model {model_name}
 
-35. 
+35. php artisan make:mail {mail_name}
+    Generates a mailable at "app/Mail/{mail_name}"
+
+36. 

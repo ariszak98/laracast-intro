@@ -116,4 +116,10 @@ Useful Composer + Laravel Commands + MySQL commands ::
 35. php artisan make:mail {mail_name}
     Generates a mailable at "app/Mail/{mail_name}"
 
-36. 
+36. php artisan queue:work
+    Creates workers for the jobs in the queue
+
+37. php artisan make:jobs {job_name}
+    Creates a new job named {job_name}
+
+38. 

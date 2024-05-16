@@ -1,13 +1,22 @@
 <?php
 
+use App\Models\Job;
+use App\Jobs\TranslateJob;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\JobController;
+use Illuminate\Contracts\Session\Session;
 use App\Http\Controllers\SessionController;
 use App\Http\Controllers\RegisteredUserController;
-use Illuminate\Contracts\Session\Session;
 
 // Home
 Route::view('/', 'home');
+
+Route::get('test', function() {
+
+    TranslateJob::dispatch(Job::first());
+
+    return 'Done';
+});
 
 // Job Related
 Route::get('/jobs', [JobController::class, 'index']);
